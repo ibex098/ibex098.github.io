@@ -705,8 +705,15 @@ section {
   justify-content: center;
 }
 .portfolio .portfolio-wrap .portfolio-text p {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: bold;
+}
+@media only screen and (min-width: 200px) {
+
+  .portfolio .portfolio-wrap .portfolio-text p {
+    font-size: 20px;
+    font-weight: bold;
+  }
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -723,7 +730,6 @@ section {
   right: 0;
   bottom: 0;
   opacity: 1;
-  cursor: pointer;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-links {
@@ -734,7 +740,14 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-text {
   opacity: 1;
   bottom: 200px;
-  cursor: pointer;
+}
+.portfolio .portfolio-wrap:hover .portfolio-text a{
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+
+  color: #272829;
+  background: none;
 }
 
 /*--------------------------------------------------------------
