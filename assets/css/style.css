@@ -353,6 +353,9 @@ section {
 .section-bg {
   background: #f5f8fd;
 }
+.section-bg-dark{
+  background: #181a20;
+}
 
 .section-title {
   padding-bottom: 30px;
@@ -720,22 +723,25 @@ section {
   right: 0;
   bottom: 0;
   opacity: 1;
+  cursor: pointer;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: 0;
+  cursor: pointer;
 }
 .portfolio .portfolio-wrap:hover .portfolio-text {
   opacity: 1;
   bottom: 200px;
+  cursor: pointer;
 }
 
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  margin-bottom: 20px;
+  margin-bottom: 4rem;
 }
 
 .services .icon {
