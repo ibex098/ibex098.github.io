@@ -1,0 +1,232 @@
+/* IP5 */
+@media (max-width: 320px) {
+  .portfolio .portfolio-wrap .portfolio-name {
+    position: absolute;
+    left: 0%;
+    right: 0px;
+
+    font-size: 20px;
+
+    bottom: 23%;
+  }
+  .portfolio .portfolio-wrap .portfolio-content {
+    font-size: 10px;
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    max-width: 210px;
+
+    width: 100%;
+    bottom: -16px;
+  }
+}
+/* IP 6/7/8/X*/
+@media (min-width: 320.99px) and (max-width: 375px) {
+  .portfolio .portfolio-wrap .portfolio-content {
+    font-size: 11px;
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    max-width: 210px;
+
+    width: 100%;
+    bottom: 0px;
+  }
+
+  .portfolio .portfolio-wrap .portfolio-name {
+    position: absolute;
+    left: 0%;
+    right: 0px;
+
+    font-size: 20px;
+
+    bottom: 25%;
+  }
+}
+/* IPad */
+@media (min-width: 375.99px) and (max-width: 768px){
+  .portfolio .portfolio-wrap .portfolio-content {
+    font-size: 11px;
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    max-width: 210px;
+
+    width: 100%;
+    bottom: 0px;
+  }
+
+  .portfolio .portfolio-wrap .portfolio-name {
+    position: absolute;
+    left: 0%;
+    right: 0px;
+
+    font-size: 20px;
+
+    bottom: 25%;
+  }
+}
+
+/* Pixel 2 */
+@media (min-width: 375.99px) and (max-width: 441px){
+  .portfolio .portfolio-wrap .portfolio-content {
+    font-size: 11px;
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    max-width: 280px;
+    min-height: 200px;
+
+    width: 100%;
+    bottom: 0px;
+  }
+
+  .portfolio .portfolio-wrap .portfolio-name {
+    position: absolute;
+    left: 0%;
+    right: 0px;
+
+    font-size: 20px;
+
+    bottom: 26%;
+  }
+}
+/* Surface Doual */
+@media (min-width: 441.99px) and (max-width: 540px){
+  .portfolio .portfolio-wrap .portfolio-content {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    line-height: 27px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    max-width: 395px;
+    margin: auto;
+    padding: 10px 15px 30px;
+    width: 100%;
+    bottom: 0px;
+    min-height: 300px;
+    text-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+}
+.portfolio .portfolio-wrap .portfolio-name {
+  position: absolute;
+  left: 0%;
+  right: 0px;
+  margin: auto;
+
+  color: Red;
+  font-size: 25px;
+  text-align: center;
+
+  padding: 10px 15px 30px;
+  width: 100%;
+  bottom: 28%;
+
+  -webkit-box-align: center;
+  align-items: center;
+}
+}
+
+/* @media (min-width: 540px) and (max-width: 768px) {
+  .portfolio .portfolio-wrap .portfolio-content {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 25px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    max-width: 400px;
+    margin: auto;
+    padding: 10px 15px 30px;
+    width: 100%;
+    bottom: 0px;
+    min-height: 300px;
+    text-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .portfolio .portfolio-wrap .portfolio-name {
+    position: absolute;
+    left: 0%;
+    right: 0px;
+    font-size: 25px;
+    bottom: 28%;
+  }
+} */
+
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+}
+
+@media (min-width: 576px) and (max-width: 991.99px) {
+}
+
+@media (min-width: 992px) and (max-width: 1195.99px) {
+  .portfolio .portfolio-wrap .portfolio-content {
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    line-height: 17px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    max-width: 215px;
+    margin: auto;
+    padding: 10px 15px 30px;
+    width: 100%;
+    bottom: -11px;
+    min-height: 130px;
+    text-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .portfolio .portfolio-wrap .portfolio-name {
+    position: absolute;
+    left: 0%;
+    right: 0px;
+
+    font-size: 20px;
+    bottom: 23%;
+  }
+}
+
+@media (min-width: 1196px) and (max-width: 1366px) {
+  .portfolio .portfolio-wrap .portfolio-content {
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    line-height: 17px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    max-width: 220px !important;
+    margin: auto;
+    padding: 10px 15px 30px;
+    width: 100%;
+    bottom: -10px;
+    min-height: 125px !important;
+    text-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .portfolio .portfolio-wrap .portfolio-name {
+    position: absolute;
+    left: 0%;
+    right: 0px;
+
+    font-size: 20px;
+    bottom: 23%;
+  }
+}
+
