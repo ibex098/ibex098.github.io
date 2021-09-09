@@ -655,10 +655,12 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  margin: auto;
+  max-width: 280px;
 }
 
 .portfolio .portfolio-wrap .cardImg {
-  padding: 0 35px;
+  /* padding: 0 35px; */
 }
 
 .portfolio .portfolio-wrap .portfolio-content {
