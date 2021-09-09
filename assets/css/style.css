@@ -1,3 +1,4 @@
+
 /**
 * Template Name: iPortfolio - v1.5.1
 * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
@@ -658,6 +659,42 @@ section {
 
 .portfolio .portfolio-wrap .cardImg {
   padding: 0 35px;
+}
+
+.portfolio .portfolio-wrap .portfolio-content {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    line-height: 17px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    max-width: 250px;
+    margin: auto;
+    padding: 10px 15px 30px;
+    width: 100%;
+    bottom: 0px;
+    min-height: 145px;
+    text-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+}
+.portfolio .portfolio-wrap .portfolio-name {
+  position: absolute;
+  left: 0%;
+  right: 0px;
+  margin: auto;
+
+  color: Red;
+  font-size: 25px;
+  text-align: center;
+
+  padding: 10px 15px 30px;
+  width: 100%;
+  bottom: 25%;
+
+  -webkit-box-align: center;
+  align-items: center;
 }
 
 .portfolio .portfolio-wrap::before {
