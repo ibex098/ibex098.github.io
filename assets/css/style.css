@@ -1,4 +1,3 @@
-
 /**
 * Template Name: iPortfolio - v1.5.1
 * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
@@ -148,11 +147,13 @@ h6 {
   font-weight: 400 !important;
   -webkit-text-stroke: 1px #2e596d;
 }
-.myShadow{
+
+.myShadow {
   text-shadow: 6px 6px #2a586d;
 }
-.myP{
-  font-size:  1.2rem;
+
+.myP {
+  font-size: 1.2rem;
 }
 
 
@@ -170,7 +171,7 @@ h6 {
   list-style: none;
 }
 
-.nav-menu > ul > li {
+.nav-menu>ul>li {
   position: relative;
   white-space: nowrap;
 }
@@ -192,15 +193,15 @@ h6 {
 }
 
 .nav-menu a:hover,
-.nav-menu .active > a,
-.nav-menu li:hover > a {
+.nav-menu .active>a,
+.nav-menu li:hover>a {
   text-decoration: none;
   color: #fff;
 }
 
 .nav-menu a:hover i,
-.nav-menu .active > a i,
-.nav-menu li:hover > a i {
+.nav-menu .active>a i,
+.nav-menu li:hover>a i {
   color: #149ddd;
 }
 
@@ -245,41 +246,43 @@ h6 {
   background: url("../img/6cad658e-monster-cake_lc.jpg") top center;
   background-size: cover;
 }
+
 .btn3 {
   padding: 2px;
   outline: 0;
   font-size: 17px;
   color: rgb(255, 255, 255);
-  background: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#fdde5c),
-    color-stop(#f8ab5e),
-    color-stop(#f56a62),
-    color-stop(#a176c8),
-    color-stop(#759beb),
-    color-stop(#65beb3),
-    to(#70db96)
-  );
+  background: -webkit-gradient(linear,
+      left top,
+      right top,
+      from(#fdde5c),
+      color-stop(#f8ab5e),
+      color-stop(#f56a62),
+      color-stop(#a176c8),
+      color-stop(#759beb),
+      color-stop(#65beb3),
+      to(#70db96));
   background: linear-gradient(to right, #fdde5c, #f8ab5e, #f56a62, #a176c8, #759beb, #65beb3, #70db96);
   border-radius: 30px;
   border: 0;
   box-shadow: none;
   cursor: pointer;
 }
+
 .btn3:hover {
   background: linear-gradient(to right, #70db96, #65beb3, #759beb, #a176c8, #f56a62, #f8ab5e, #fdde5c);
   transition: all 1s;
 }
-.btn3 > span {
+
+.btn3>span {
   display: block;
   padding: 10px 20px;
   font-size: 20px;
   background: #e08d31;
   border-radius: 30px;
 }
-.btn3 > span:hover {
+
+.btn3>span:hover {
   background: #f56a62;
   transition: all 0.5s;
 }
@@ -313,7 +316,8 @@ h6 {
 #hero p {
   color: #fff;
   margin-bottom: 50px;
-  font-size: 26px;
+  font-size: 30px;
+  font-weight: 700;
   font-family: "Poppins", sans-serif;
 }
 
@@ -354,7 +358,8 @@ section {
 .section-bg {
   background: #f5f8fd;
 }
-.section-bg-dark{
+
+.section-bg-dark {
   background: #181a20;
 }
 
@@ -390,6 +395,7 @@ section {
   color: #47a3cc;
   margin: 0;
 }
+
 .myTitle {
   text-align: center;
   color: #fff;
@@ -397,6 +403,7 @@ section {
   -webkit-text-stroke: 1px #2e596d;
   text-shadow: 6px 6px #2a586d;
 }
+
 /* myResponsive */
 @media only screen and (min-width: 200px) {
 
@@ -405,6 +412,14 @@ section {
     line-height: 56px;
     color: #fff;
   }
+
+  #hero h6 {
+    margin: 0 0 25px 0;
+    line-height: 56px;
+    color: #fff;
+    font-size: 25px;
+  }
+
   .myTitleBanner {
     font-size: 3rem !important;
     color: #fff;
@@ -412,6 +427,7 @@ section {
     -webkit-text-stroke: 1px #2e596d;
     text-shadow: 6px 6px #2a586d;
   }
+
   .myTitle {
     font-size: 3.5rem !important;
   }
@@ -423,6 +439,14 @@ section {
     line-height: 56px;
     color: #fff;
   }
+
+  #hero h6 {
+    margin: 0 0 25px 0;
+    line-height: 56px;
+    color: #fff;
+    font-size: 25px;
+  }
+
   .myTitleBanner {
     font-size: 5rem !important;
     text-shadow: 6px 6px rgb(42 88 109 / 62%);
@@ -430,6 +454,7 @@ section {
     font-weight: 400;
     -webkit-text-stroke: 1px #2e596d;
   }
+
   .myTitle {
     font-size: 5.5rem !important;
   }
@@ -438,6 +463,41 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-30px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.about .aboutLogo {
+  transform: translatey(0px);
+  -webkit-animation: float 6s ease-in-out infinite;
+  animation: float 6s ease-in-out infinite;
+  text-align: center;
+  width: 90%;
+}
+
+.about .comingSoon .row .aboutImg {
+  /* float: right; */
+  width: 250px;
+}
+
+.about .aboutBtn {
+  text-align: center;
+}
+
+
+
+@media (max-width:767.99) {}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -461,6 +521,12 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+.about .comingSoon h2 {
+  margin-bottom: 0;
+  margin-top: 30px;
+  padding-bottom: 0;
 }
 
 /*--------------------------------------------------------------
@@ -664,23 +730,24 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-content {
-    color: rgb(255, 255, 255);
-    font-size: 13px;
-    line-height: 17px;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    max-width: 240px;
-    margin: auto;
-    padding: 10px 15px 30px;
-    width: 100%;
-    bottom: 0px;
-    min-height: 145px;
-    text-align: center;
-    -webkit-box-align: center;
-    align-items: center;
-    display: flex;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  line-height: 17px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  max-width: 240px;
+  margin: auto;
+  padding: 10px 15px 30px;
+  width: 100%;
+  bottom: 0px;
+  min-height: 145px;
+  text-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
 }
+
 .portfolio .portfolio-wrap .portfolio-name {
   position: absolute;
   left: 0%;
@@ -701,7 +768,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(25, 25, 24, 0.7);
   position: absolute;
   left: 0;
   right: 0;
@@ -710,6 +777,7 @@ section {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
+  border-radius: 17px;
 }
 
 .portfolio .portfolio-wrap .portfolio-links {
@@ -732,6 +800,7 @@ section {
   transition: 0.3s;
   width: 50%;
 }
+
 .portfolio .portfolio-wrap .portfolio-text {
   opacity: 1;
   left: 0;
@@ -743,10 +812,13 @@ section {
   display: flex;
   justify-content: center;
 }
+
 .portfolio .portfolio-wrap .portfolio-text p {
   font-size: 23px;
   font-weight: bold;
+  color: #FFF;
 }
+
 @media only screen and (min-width: 200px) {
 
   .portfolio .portfolio-wrap .portfolio-text p {
@@ -759,7 +831,7 @@ section {
   background: rgba(20, 157, 221, 0.95);
 }
 
-.portfolio .portfolio-wrap .portfolio-links a + a {
+.portfolio .portfolio-wrap .portfolio-links a+a {
   border-left: 1px solid #37b3ed;
 }
 
@@ -776,11 +848,13 @@ section {
   bottom: 0;
   cursor: pointer;
 }
+
 .portfolio .portfolio-wrap:hover .portfolio-text {
   opacity: 1;
   bottom: 200px;
 }
-.portfolio .portfolio-wrap:hover .portfolio-text a{
+
+.portfolio .portfolio-wrap:hover .portfolio-text a {
   font-size: 23px;
   font-weight: bold;
   text-align: center;
@@ -1045,7 +1119,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
@@ -1148,11 +1222,11 @@ section {
   font-size: 15px;
 }
 
-.breadcrumbs ol li + li {
+.breadcrumbs ol li+li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li + li::before {
+.breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
   color: #0e2442;
@@ -1232,7 +1306,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li + li {
+.portfolio-details .portfolio-info ul li+li {
   margin-top: 10px;
 }
 
